@@ -1,13 +1,13 @@
 name:
     type: input
     prompt: "What is the project name?"
-    default: "Buora Template"
+    default: "Batch Template"
     option: "name"
 
 description:
     type: input
     prompt: "Enter a project description"
-    default: "Demo do template do buora para criar um projeto com a estrutura de pastas e arquivos padrão."
+    default: "template em python para processamento batch."
     option: "description"
 
 version:
