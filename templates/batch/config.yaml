@@ -1,17 +1,17 @@
 name:
-    type: input
+    type: string
     prompt: "What is the project name?"
     default: "Batch Template"
     option: "name"
 
 description:
-    type: input
+    type: string
     prompt: "Enter a project description"
     default: "template em python para processamento batch."
     option: "description"
 
 version:
-    type: input
+    type: string
     prompt: "Project version"
     default: "1.0"
     option: "version"

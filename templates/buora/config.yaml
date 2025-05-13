@@ -17,55 +17,37 @@ version:
   option: "version"
 
 includeDocs:
-  type: choose
+  type: boolean
   prompt: "Include documentation folder?"
-  default: "Sim"
-  choices:
-    - Sim
-    - Não
+  default: "true"
   option: "options.includeDocs"
 
 includeFrontend:
-  type: choose
+  type: boolean
   prompt: "Include frontend structure?"
-  default: "Sim"
-  choices:
-    - Sim
-    - Não
+  default: "true"
   option: "options.includeFrontend"
 
 includeTerraform:
-  type: choose
+  type: boolean
   prompt: "Include Terraform configuration?"
-  default: "Sim"
-  choices:
-    - Sim
-    - Não
+  default: "true"
   option: "options.includeTerraform"
 
 includeAgent1:
-  type: choose
+  type: boolean
   prompt: "Include Agent1 module?"
-  default: "Sim"
-  choices:
-    - Sim
-    - Não
+  default: "true"
   option: "options.includeAgent1"
 
 includeFnAuthorizers:
-  type: choose
+  type: boolean
   prompt: "Include Function Authorizers?"
-  default: "Sim"
-  choices:
-    - Sim
-    - Não
+  default: "true"
   option: "options.includeFnAuthorizers"
 
 includeFnConversationDb:
-  type: choose
+  type: boolean
   prompt: "Include Conversation Database Function?"
-  default: "Sim"
-  choices:
-    - Sim
-    - Não
+  default: "true"
   option: "options.includeFnConversationDb"
