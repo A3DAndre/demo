@@ -1,26 +1,23 @@
 projectName:
-  type: input
+  type: string
   prompt: "What is the project name?"
   default: "Demo da daily de titulo pro README"
   option: "projectName"
 
 description:
-  type: input
+  type: string
   prompt: "Enter a project description"
   default: "Esse é um projeto demo da daily de titulo pro README e outros patches"
   option: "description"
 
 version:
-  type: input
+  type: string
   prompt: "Project version"
   default: "1.0"
   option: "version"
 
 deleteBase24:
-  type: choose
+  type: boolean
   prompt: "Delete Base24 configuration?"
-  default: "Não"
-  choices:
-    - Sim
-    - Não
+  default: "false"
   option: "options.deleteBase24"
